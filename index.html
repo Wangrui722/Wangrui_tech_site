@@ -382,7 +382,7 @@ h1, h2, h3, h4 { font-family: var(--font-d); font-weight: 700; line-height: 1.2;
   .work-card--horizontal { grid-template-columns: 1fr; }
   .work-card--horizontal .work-media { min-height: 280px; }
 }
-  </style>
+  .resume-frame-wrap iframe { display:block; width:100%; border:none; border-radius:0 0 var(--radius) var(--radius); }</style>
 </head>
 <body>
 
@@ -689,9 +689,8 @@ h1, h2, h3, h4 { font-family: var(--font-d); font-weight: 700; line-height: 1.2;
               <a class="btn btn-primary" href="王睿.pdf" download="王睿-个人简历.pdf">下载 PDF <span class="arr">↓</span></a>
             </div>
           </div>
-          <div class="resume-frame-wrap resume-pages">
-            <img src="resume-page-1.jpg" alt="王睿个人简历 第 1 页：基本信息、教育经历、《寻宝冒险家》《Q版2D闯关》项目经历、相关技能">
-            <img src="resume-page-2.jpg" alt="王睿个人简历 第 2 页：国家励志奖学金、校级奖学金、三好学生、农业创意设计大赛省级三等奖" loading="lazy">
+          <div class="resume-frame-wrap resume-pages" style="padding:0;background:#e9eef4;">
+            <iframe src="王睿.pdf#page=1&view=FitH" width="100%" height="1200px" style="border:none;border-radius:0 0 var(--radius) var(--radius);" title="王睿个人简历 PDF"></iframe>
           </div>
         </div>
       </section>
